@@ -6,7 +6,7 @@ from scipy.signal import butter, sosfilt
 # Specify the file name
 file_name = "2022_04_22_hour_heartbeat_merged.csv"
 sample_rate = 44100
-duration_per_heartbeat = 0.2  # Duration in seconds
+duration_per_heartbeat = 0.05  # Duration in seconds
 
 
 def butter_bandpass(lowcut, highcut, fs, order=5):
